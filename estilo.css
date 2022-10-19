@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* ******************************************************************************* */
+
+.header {
+  width: 100%;
+  height: 7.313rem;
+  background-color:rgba(46, 148, 138, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 28.125rem) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.logo {
+  width: 15.25rem;
+  height: 4.813rem;
+  padding-left: 5.125rem;
+  
+}
+
+.menu * {
+  text-decoration: none;
+  list-style: none;
+  color: #FDFDFD;
+  font-family: 'Ubuntu';
+  font-size: 1.125rem;
+}
+
+.menu ul {
+  display: flex;
+  gap: 2.313rem;
+  padding-right: 6.438rem;
+}
+
+ /* ******************************************************************************* */
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.563rem;
+  padding-top: 6.563rem;
+  padding-bottom: 9rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+  .formulario {
+    flex-direction: column;
+  }
+}
+
+.form1 {
+  border: 0.063rem solid #686868;
+  border-radius: 0.438rem;
+  width: 30.813rem;
+  padding-bottom: 1rem;
+  padding-left: 1.313rem;
+  padding-top:  0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.form2 {
+  padding-bottom: 12.063rem;
+  padding-top: 0.625rem;
+  padding-left: 1.313rem;
+  border: 0.063rem solid #686868;
+  border-radius: 0.438rem;
+  width: 30.813rem;
+}
+
+.contato {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.875rem;
+  color: #FF4081;
+  padding-bottom: 2.75rem;
+}
+
+.grupo6 {
+  background: #FF4081;
+  border-radius: 3.125rem;
+  font-family: 'Nunito';
+  font-weight: 800;
+  line-height: 1.375rem;
+  color: #FFFFFF;
+  width: 6.75rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.938rem;
+}
+
+/* ******************************************************************************* */
+
+.footer {
+  width: 100%;
+  height: 12.938rem;
+  background-color: rgba(65, 148, 136, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 8.563rem;
+
+}
+
+@media screen and (max-width: 28.125rem) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+.Logo-1 {
+
+  width: 6.25rem;
+  height: 3.125rem;
+}
+
+.menufinal * {
+  text-decoration: none;
+  list-style: none;
+  color: #FFFFFF;
+  font-family: 'Ubuntu';
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.group-30 {
+  border: 0.125rem solid #FFFFFF;
+  border-radius: 3.875rem;
+  color: #FFFFFF;
+  Width: 18.063rem;
+  height: 3.188rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu';
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  margin-bottom: 0.625rem;
+  
+ }
+
+ .group-29 {
+  border: 0.125rem solid #FFFFFF;
+  border-radius: 3.875rem;
+  color: #FFFFFF;
+  height: 3.188rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu';
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  width: 18.063rem;
+}
+
+
