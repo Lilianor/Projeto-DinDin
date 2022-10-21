@@ -9,7 +9,6 @@
 
 .header {
   width: 100%;
-  width: 90rem;
   height: 7.313rem;
   background-color:rgba(46, 148, 138, 1);
   display: flex;
@@ -48,7 +47,8 @@
 .menu * {
   text-decoration: none;
   list-style: none;
-  color: #FDFDFD;
+  color: #fdfdfd;
+  font-family: 'Ubuntu';
   font-size: 1.125rem;
 }
 
@@ -62,9 +62,6 @@
   display: flex;
   gap: 2.313rem;
   padding-right: 6.438rem;
-}
-
-.menu ul li {
   font-weight: 700;
 }
 
@@ -207,8 +204,9 @@
     height: 3.313rem;
     left: 26.087rem;
     top: 52.336rem;
-    border: 0.063rem solid #000000;
-    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 28.125rem) {
@@ -321,8 +319,9 @@
     height: 3.313rem;
     left: 26.087rem;
     top: 78.086rem;
-    border: 0.063rem solid #000000;
-    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 28.125rem) {
@@ -435,8 +434,9 @@
     height: 3.313rem;
     left: 26.087rem;
     top: 103.836rem;
-    border: 0.063rem solid #000000;
-    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 28.125rem) {
@@ -496,7 +496,7 @@
 .footer {
   position: absolute;
   height: 12.938rem;
-  width: 90rem;
+  width: 100%;
   background-color: rgba(65, 148, 136, 1);
   display: flex;
   align-items: center;

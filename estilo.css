@@ -28,6 +28,8 @@
   color: #FDFDFD;
   font-family: 'Ubuntu';
   font-size: 1.125rem;
+  font-weight: 700;
+ 
 }
 
 .menu ul {
@@ -148,6 +150,7 @@
   font-size: 1.25rem;
   line-height: 1.438rem;
   width: 18.063rem;
+  font-weight: 400;
 }
 
 /* MEDIA QUERIES */

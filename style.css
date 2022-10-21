@@ -28,6 +28,7 @@
   color: #fdfdfd;
   font-family: 'Ubuntu';
   font-size: 1.125rem;
+  font-weight: 700;
 }
 
 .menu ul {
@@ -390,7 +391,7 @@
     padding-bottom: 60px;
   }
 
-.title {
+  .title {
     display: none;
   }
   .blog {
