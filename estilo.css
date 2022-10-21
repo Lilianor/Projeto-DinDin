@@ -15,12 +15,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 28.125rem) {
-  .header {
-    flex-direction: column;
-  }
-}
-
 .logo {
   width: 15.25rem;
   height: 4.813rem;
@@ -53,11 +47,6 @@
   padding-bottom: 9rem;
 }
 
-@media screen and (max-width: 28.125rem) {
-  .formulario {
-    flex-direction: column;
-  }
-}
 
 .form1 {
   border: 0.063rem solid #686868;
@@ -116,12 +105,6 @@
 
 }
 
-@media screen and (max-width: 28.125rem) {
-  .footer {
-    flex-direction: column;
-  }
-}
-
 .Logo-1 {
 
   width: 6.25rem;
@@ -167,4 +150,72 @@
   width: 18.063rem;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 28.125rem) {
+
+  html {
+    font-size: 80%;
+  }
+  
+  .header {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header img {
+    width: 130px;
+    height: 50px;
+  }
+
+  .formulario {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .formulario img {
+    width: 30rem;
+  }
+
+   .footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+  }
+  .footer img {
+    width: 150px;
+    height: 60px;
+  }
+
+  .group-29 {
+    width: 150px;
+}
+
+  .group-30 {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .formulario {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer img {
+    width: 150px;
+    height: 60px;
+    gap: 70px;
+  }
+
+  .group-29 {
+    width: 180px;
+}
+
+  .group-30 {
+    width: 180px;
+  }
+  
+}

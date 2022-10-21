@@ -4,34 +4,28 @@
   box-sizing: border-box;
 }
 
- /* ******************************************************************************* */
+/* ******************************************************************************* */
 
 .header {
   width: 100%;
   height: 7.313rem;
-  background-color:rgba(46, 148, 138, 1);
+  background-color: rgba(46, 148, 138, 1);
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-@media screen and (max-width: 28.125rem) {
-  .header {
-    flex-direction: column;
-  }
+ 
 }
 
 .logo {
   width: 15.25rem;
   height: 4.813rem;
   padding-left: 5.125rem;
-  
 }
 
 .menu * {
   text-decoration: none;
   list-style: none;
-  color: #FDFDFD;
+  color: #fdfdfd;
   font-family: 'Ubuntu';
   font-size: 1.125rem;
 }
@@ -42,27 +36,20 @@
   padding-right: 6.438rem;
 }
 
- /* ******************************************************************************* */
+/* ******************************************************************************* */
 
 .banner {
- width: 100%;
- height: 32.563rem;
- margin-top: 7.813rem;
- display: flex;
- justify-content: space-evenly;
- align-items: center;
-
-}
-
-@media screen and (max-width: 28.125rem) {
-  .banner {
-    flex-direction: column;
-  }
+  width: 100%;
+  height: 32.563rem;
+  margin-top: 7.813rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .texto-banner {
- width: 30.5rem;
- height: 24.125rem; 
+  width: 30.5rem;
+  height: 24.125rem;
 }
 
 .texto-banner h1 {
@@ -70,7 +57,6 @@
   font-family: 'Ubuntu';
   font-size: 3.75rem;
   line-height: 4.313rem;
-
 }
 
 .texto-banner p {
@@ -82,12 +68,12 @@
 }
 
 .group13 {
-  border: 0.125rem solid #FF4081;
+  border: 0.125rem solid #ff4081;
   border-radius: 3.875rem;
   margin-top: 2.375rem;
   max-width: 16.75rem;
   height: 3.188rem;
-  color: #FF4081;
+  color: #ff4081;
   font-family: 'Ubuntu';
   font-size: 1.688rem;
   line-height: 1.938rem;
@@ -96,8 +82,7 @@
   justify-content: center;
 }
 
-
- /* ******************************************************************************* */
+/* ******************************************************************************* */
 
 .curso {
   width: 100%;
@@ -106,13 +91,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 4.125rem;
-  background-color: #F7F7F7;
-}
-
-@media screen and (max-width: 28.125rem) {
-  .curso {
-    flex-direction: column;
-  }
+  background-color: #f7f7f7;
 }
 
 .curso-1 {
@@ -137,7 +116,7 @@
 }
 
 .curso h4 {
-  color: #FF4081;
+  color: #ff4081;
   font-family: 'Ubuntu';
   font-size: 1.563rem;
   line-height: 1.813rem;
@@ -146,7 +125,6 @@
 }
 
 .curso p {
-  
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 300;
@@ -160,13 +138,12 @@
 }
 
 .groupbt {
-
   display: flex;
-  background: #FF4081;
+  background: #ff4081;
   border-radius: 3.875rem;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Ubuntu';
   font-size: 1.25rem;
   line-height: 1.438rem;
@@ -175,7 +152,7 @@
   height: 3.188rem;
 }
 
- /* ******************************************************************************* */
+/* ******************************************************************************* */
 
 .title {
   font-family: 'Nunito';
@@ -195,12 +172,6 @@
   padding-bottom: 9.688rem;
 }
 
-@media screen and (max-width: 28.125rem) {
-  .depoimentos {
-    flex-direction: column;
-  }
-}
-
 .caixa1 {
   width: 31.25rem;
   display: flex;
@@ -212,7 +183,6 @@
   line-height: 1.563rem;
   color: #000000;
   font-weight: 300;
-
 }
 
 .caixa2 {
@@ -250,24 +220,23 @@
   line-height: 1.563rem;
   color: #000000;
   font-weight: 300;
-  }
+}
 
-  .depoimentos h4 {
-   font-weight: 400;
-  }
+.depoimentos h4 {
+  font-weight: 400;
+}
 
- /* ******************************************************************************* */
+/* ******************************************************************************* */
 
 .blog {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   flex-wrap: wrap;
   gap: 2.5rem;
   padding-bottom: 3.313rem;
   padding-top: 5.688rem;
- 
 }
 
-  .blog h1 {
+.blog h1 {
   font-family: 'Ubuntu';
   font-weight: 700;
   font-size: 2.313rem;
@@ -275,7 +244,7 @@
   color: #009688;
   padding-bottom: 4.563rem;
   padding-left: 12.5rem;
- }
+}
 
 .post1 {
   display: flex;
@@ -283,36 +252,27 @@
   justify-content: center;
   width: 100%;
   gap: 6.813rem;
-  
- }
-
- @media screen and (max-width: 28.125rem) {
-  .post1 {
-    flex-direction: column;
-  }
 }
 
- .botao {
+.botao {
   width: 18.063rem;
   height: 3.188rem;
-  border: 0.125rem solid #FF4081;
+  border: 0.125rem solid #ff4081;
   border-radius: 3.875rem;
   font-family: 'Ubuntu';
   font-size: 1.563rem;
   line-height: 1.813rem;
-  color: #FF4081;
+  color: #ff4081;
   display: flex;
   align-items: center;
   justify-content: center;
- }
+}
 
- .bt {
+.bt {
   display: flex;
   justify-content: center;
   padding-top: 6.313rem;
- }
-
-
+}
 
 /* ******************************************************************************* */
 
@@ -325,17 +285,9 @@
   justify-content: space-between;
   padding-left: 8rem;
   padding-right: 8.563rem;
-
-}
-
-@media screen and (max-width: 28.125rem) {
-  .footer {
-    flex-direction: column;
-  }
 }
 
 .Logo-1 {
-
   width: 6.25rem;
   height: 3.125rem;
 }
@@ -343,17 +295,17 @@
 .menufinal * {
   text-decoration: none;
   list-style: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Ubuntu';
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
 .group-30 {
-  border: 0.125rem solid #FFFFFF;
+  border: 0.125rem solid #ffffff;
   border-radius: 3.875rem;
-  color: #FFFFFF;
-  Width: 18.063rem;
+  color: #ffffff;
+  width: 18.063rem;
   height: 3.188rem;
   display: flex;
   align-items: center;
@@ -362,12 +314,12 @@
   font-size: 1.25rem;
   line-height: 1.438rem;
   margin-bottom: 0.625rem;
- }
+}
 
- .group-29 {
-  border: 0.125rem solid #FFFFFF;
+.group-29 {
+  border: 0.125rem solid #ffffff;
   border-radius: 3.875rem;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 3.188rem;
   display: flex;
   align-items: center;
@@ -378,8 +330,181 @@
   width: 18.063rem;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 28.125rem) {
+  
+  html {
+    font-size: 70%;
+  }
+  
+  .header {
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+  }
 
+  .header img {
+    width: 130px;
+    height: 50px;
+  }
 
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
 
+  .texto-banner h1 p {
+    font-size: 1.25rem;
+  }
+
+  .ilustra-banner img {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+  }
+
+  .curso {
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+    padding-top: 500px;
+  }
+  .curso h4 p {
+    font-size: 1.25rem;
+  }
+
+  .curso img {
+    width: 120px;
+    height: 120px;
+  }
+  .depoimentos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 450px;
+    align-items: center;
+  }
+
+  .depoimentos .caixa2 {
+    padding-bottom: 60px;
+  }
+
+.title {
+    display: none;
+  }
+  .blog {
+    background-color: white;
+  } 
+
+  .blog h1 {
+    margin-right: 80px;
+    
+  }
+  .post1 {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .botao {
+   margin-bottom: 20px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .footer img {
+    width: 150px;
+    height: 60px;
+    margin-left: 20px;
+  }
+
+  .group-29 {
+    width: 150px;
+}
+
+  .group-30 {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+ 
+  html {
+    font-size: 70%;
+  }
+  
+  .header1 {
+    gap: 350px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .header img {
+    width: 130px;
+    height: 50px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+  .texto-banner h1 p {
+    font-size: 1.25rem;
+  }
+
+  .ilustra-banner img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .curso img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .title {
+    padding-left: 90px;
+  }
+
+  .blog h1 {
+    padding-left: 200px;
+}
+  .post1 {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .depoimentos {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .footer {
+   gap: 70px;
+  }
+
+  .footer img {
+    width: 150px;
+    height: 60px;
+  }
+
+  .group-29 {
+    width: 150px;
+}
+
+  .group-30 {
+    width: 150px;
+  }
+  
+}
 
